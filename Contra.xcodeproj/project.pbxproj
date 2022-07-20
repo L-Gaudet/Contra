@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3FE65742888CE64009B1916 /* ContraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FE65732888CE64009B1916 /* ContraApp.swift */; };
+		C3FE65762888CE64009B1916 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FE65752888CE64009B1916 /* ContentView.swift */; };
+		C3FE65782888CE65009B1916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FE65772888CE65009B1916 /* Assets.xcassets */; };
+		C3FE657B2888CE65009B1916 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FE657A2888CE65009B1916 /* Preview Assets.xcassets */; };
+		C3FE65852888CE66009B1916 /* ContraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FE65842888CE66009B1916 /* ContraTests.swift */; };
+		C3FE658F2888CE66009B1916 /* ContraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FE658E2888CE66009B1916 /* ContraUITests.swift */; };
+		C3FE65912888CE66009B1916 /* ContraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FE65902888CE66009B1916 /* ContraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3FE65812888CE66009B1916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3FE65682888CE64009B1916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3FE656F2888CE64009B1916;
+			remoteInfo = Contra;
+		};
+		C3FE658B2888CE66009B1916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3FE65682888CE64009B1916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3FE656F2888CE64009B1916;
+			remoteInfo = Contra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3FE65702888CE64009B1916 /* Contra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FE65732888CE64009B1916 /* ContraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContraApp.swift; sourceTree = "<group>"; };
+		C3FE65752888CE64009B1916 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C3FE65772888CE65009B1916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3FE657A2888CE65009B1916 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3FE65802888CE66009B1916 /* ContraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FE65842888CE66009B1916 /* ContraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContraTests.swift; sourceTree = "<group>"; };
+		C3FE658A2888CE66009B1916 /* ContraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FE658E2888CE66009B1916 /* ContraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContraUITests.swift; sourceTree = "<group>"; };
+		C3FE65902888CE66009B1916 /* ContraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3FE656D2888CE64009B1916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FE657D2888CE66009B1916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FE65872888CE66009B1916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3FE65672888CE64009B1916 = {
+			isa = PBXGroup;
+			children = (
+				C3FE65722888CE64009B1916 /* Contra */,
+				C3FE65832888CE66009B1916 /* ContraTests */,
+				C3FE658D2888CE66009B1916 /* ContraUITests */,
+				C3FE65712888CE64009B1916 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3FE65712888CE64009B1916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3FE65702888CE64009B1916 /* Contra.app */,
+				C3FE65802888CE66009B1916 /* ContraTests.xctest */,
+				C3FE658A2888CE66009B1916 /* ContraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3FE65722888CE64009B1916 /* Contra */ = {
+			isa = PBXGroup;
+			children = (
+				C3FE65732888CE64009B1916 /* ContraApp.swift */,
+				C3FE65752888CE64009B1916 /* ContentView.swift */,
+				C3FE65772888CE65009B1916 /* Assets.xcassets */,
+				C3FE65792888CE65009B1916 /* Preview Content */,
+			);
+			path = Contra;
+			sourceTree = "<group>";
+		};
+		C3FE65792888CE65009B1916 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C3FE657A2888CE65009B1916 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3FE65832888CE66009B1916 /* ContraTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3FE65842888CE66009B1916 /* ContraTests.swift */,
+			);
+			path = ContraTests;
+			sourceTree = "<group>";
+		};
+		C3FE658D2888CE66009B1916 /* ContraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3FE658E2888CE66009B1916 /* ContraUITests.swift */,
+				C3FE65902888CE66009B1916 /* ContraUITestsLaunchTests.swift */,
+			);
+			path = ContraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3FE656F2888CE64009B1916 /* Contra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FE65942888CE66009B1916 /* Build configuration list for PBXNativeTarget "Contra" */;
+			buildPhases = (
+				C3FE656C2888CE64009B1916 /* Sources */,
+				C3FE656D2888CE64009B1916 /* Frameworks */,
+				C3FE656E2888CE64009B1916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Contra;
+			productName = Contra;
+			productReference = C3FE65702888CE64009B1916 /* Contra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3FE657F2888CE66009B1916 /* ContraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FE65972888CE66009B1916 /* Build configuration list for PBXNativeTarget "ContraTests" */;
+			buildPhases = (
+				C3FE657C2888CE66009B1916 /* Sources */,
+				C3FE657D2888CE66009B1916 /* Frameworks */,
+				C3FE657E2888CE66009B1916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3FE65822888CE66009B1916 /* PBXTargetDependency */,
+			);
+			name = ContraTests;
+			productName = ContraTests;
+			productReference = C3FE65802888CE66009B1916 /* ContraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3FE65892888CE66009B1916 /* ContraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FE659A2888CE66009B1916 /* Build configuration list for PBXNativeTarget "ContraUITests" */;
+			buildPhases = (
+				C3FE65862888CE66009B1916 /* Sources */,
+				C3FE65872888CE66009B1916 /* Frameworks */,
+				C3FE65882888CE66009B1916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3FE658C2888CE66009B1916 /* PBXTargetDependency */,
+			);
+			name = ContraUITests;
+			productName = ContraUITests;
+			productReference = C3FE658A2888CE66009B1916 /* ContraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3FE65682888CE64009B1916 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C3FE656F2888CE64009B1916 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C3FE657F2888CE66009B1916 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C3FE656F2888CE64009B1916;
+					};
+					C3FE65892888CE66009B1916 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C3FE656F2888CE64009B1916;
+					};
+				};
+			};
+			buildConfigurationList = C3FE656B2888CE64009B1916 /* Build configuration list for PBXProject "Contra" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3FE65672888CE64009B1916;
+			productRefGroup = C3FE65712888CE64009B1916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3FE656F2888CE64009B1916 /* Contra */,
+				C3FE657F2888CE66009B1916 /* ContraTests */,
+				C3FE65892888CE66009B1916 /* ContraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3FE656E2888CE64009B1916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FE657B2888CE65009B1916 /* Preview Assets.xcassets in Resources */,
+				C3FE65782888CE65009B1916 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FE657E2888CE66009B1916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FE65882888CE66009B1916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3FE656C2888CE64009B1916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FE65762888CE64009B1916 /* ContentView.swift in Sources */,
+				C3FE65742888CE64009B1916 /* ContraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FE657C2888CE66009B1916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FE65852888CE66009B1916 /* ContraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FE65862888CE66009B1916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FE658F2888CE66009B1916 /* ContraUITests.swift in Sources */,
+				C3FE65912888CE66009B1916 /* ContraUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3FE65822888CE66009B1916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3FE656F2888CE64009B1916 /* Contra */;
+			targetProxy = C3FE65812888CE66009B1916 /* PBXContainerItemProxy */;
+		};
+		C3FE658C2888CE66009B1916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3FE656F2888CE64009B1916 /* Contra */;
+			targetProxy = C3FE658B2888CE66009B1916 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C3FE65922888CE66009B1916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3FE65932888CE66009B1916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3FE65952888CE66009B1916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Contra/Preview Content\"";
+				DEVELOPMENT_TEAM = K6HGWAT9T8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gauds.Contra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3FE65962888CE66009B1916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Contra/Preview Content\"";
+				DEVELOPMENT_TEAM = K6HGWAT9T8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gauds.Contra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3FE65982888CE66009B1916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6HGWAT9T8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gauds.ContraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contra.app/Contra";
+			};
+			name = Debug;
+		};
+		C3FE65992888CE66009B1916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6HGWAT9T8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gauds.ContraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contra.app/Contra";
+			};
+			name = Release;
+		};
+		C3FE659B2888CE66009B1916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6HGWAT9T8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gauds.ContraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Contra;
+			};
+			name = Debug;
+		};
+		C3FE659C2888CE66009B1916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6HGWAT9T8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gauds.ContraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Contra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3FE656B2888CE64009B1916 /* Build configuration list for PBXProject "Contra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FE65922888CE66009B1916 /* Debug */,
+				C3FE65932888CE66009B1916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FE65942888CE66009B1916 /* Build configuration list for PBXNativeTarget "Contra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FE65952888CE66009B1916 /* Debug */,
+				C3FE65962888CE66009B1916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FE65972888CE66009B1916 /* Build configuration list for PBXNativeTarget "ContraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FE65982888CE66009B1916 /* Debug */,
+				C3FE65992888CE66009B1916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FE659A2888CE66009B1916 /* Build configuration list for PBXNativeTarget "ContraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FE659B2888CE66009B1916 /* Debug */,
+				C3FE659C2888CE66009B1916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3FE65682888CE64009B1916 /* Project object */;
+}
