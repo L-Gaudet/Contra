@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3FABB02289893C70047B0B1 /* DotDCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FABB01289893C70047B0B1 /* DotDCardView.swift */; };
+		C3FABB042898A7710047B0B1 /* FeaturedPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FABB032898A7710047B0B1 /* FeaturedPageView.swift */; };
+		C3FABB062898A7D20047B0B1 /* MenuPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FABB052898A7D20047B0B1 /* MenuPageView.swift */; };
+		C3FABB082898B0EB0047B0B1 /* AddToOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FABB072898B0EB0047B0B1 /* AddToOrderView.swift */; };
+		C3FABB0A28998F4D0047B0B1 /* MenuCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FABB0928998F4D0047B0B1 /* MenuCardView.swift */; };
 		C3FE65742888CE64009B1916 /* ContraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FE65732888CE64009B1916 /* ContraApp.swift */; };
 		C3FE65762888CE64009B1916 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FE65752888CE64009B1916 /* ContentView.swift */; };
 		C3FE65782888CE65009B1916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FE65772888CE65009B1916 /* Assets.xcassets */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3FABB01289893C70047B0B1 /* DotDCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotDCardView.swift; sourceTree = "<group>"; };
+		C3FABB032898A7710047B0B1 /* FeaturedPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPageView.swift; sourceTree = "<group>"; };
+		C3FABB052898A7D20047B0B1 /* MenuPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPageView.swift; sourceTree = "<group>"; };
+		C3FABB072898B0EB0047B0B1 /* AddToOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToOrderView.swift; sourceTree = "<group>"; };
+		C3FABB0928998F4D0047B0B1 /* MenuCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCardView.swift; sourceTree = "<group>"; };
 		C3FE65702888CE64009B1916 /* Contra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FE65732888CE64009B1916 /* ContraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContraApp.swift; sourceTree = "<group>"; };
 		C3FE65752888CE64009B1916 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +108,11 @@
 				C3FE65752888CE64009B1916 /* ContentView.swift */,
 				C3FE65772888CE65009B1916 /* Assets.xcassets */,
 				C3FE65792888CE65009B1916 /* Preview Content */,
+				C3FABB01289893C70047B0B1 /* DotDCardView.swift */,
+				C3FABB032898A7710047B0B1 /* FeaturedPageView.swift */,
+				C3FABB052898A7D20047B0B1 /* MenuPageView.swift */,
+				C3FABB072898B0EB0047B0B1 /* AddToOrderView.swift */,
+				C3FABB0928998F4D0047B0B1 /* MenuCardView.swift */,
 			);
 			path = Contra;
 			sourceTree = "<group>";
@@ -257,7 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3FABB0A28998F4D0047B0B1 /* MenuCardView.swift in Sources */,
 				C3FE65762888CE64009B1916 /* ContentView.swift in Sources */,
+				C3FABB02289893C70047B0B1 /* DotDCardView.swift in Sources */,
+				C3FABB062898A7D20047B0B1 /* MenuPageView.swift in Sources */,
+				C3FABB082898B0EB0047B0B1 /* AddToOrderView.swift in Sources */,
+				C3FABB042898A7710047B0B1 /* FeaturedPageView.swift in Sources */,
 				C3FE65742888CE64009B1916 /* ContraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
