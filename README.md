@@ -1,4 +1,3 @@
-# Contra
-iOS app made for a local coffee shop
+# Contra UI Prototype
+iOS UI prototype for a local coffee shop.
 
-updates coming soon..
